@@ -55,5 +55,4 @@ def main(argv):
   return check.check_crontab(args, check.LogCounter(args.quiet))
 
 if __name__ == '__main__':
-  main(sys.argv)
-  sys.exit(0)
+  sys.exit(main(sys.argv))
